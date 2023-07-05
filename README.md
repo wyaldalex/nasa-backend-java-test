@@ -4,7 +4,7 @@
 Este test es para poder aplicar a la posición de JAVA Developer. Una vez accedas a este repositorio, sigue los siguientes pasos e indicaciones, por favor leer detalladamente.  
 
 Herramientas a instalar 
-> Instalar Java versión 11 u Open JDK Versión 11.
+> Instalar Java versión 11.
  
 > Instalar Postgresql como servidor de DB.
 
