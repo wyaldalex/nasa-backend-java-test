@@ -1,0 +1,56 @@
+{
+	"info": {
+		"_postman_id": "be3459fc-285b-44a2-859a-d9eda283177d",
+		"name": "Apollo2011",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "3969544"
+	},
+	"item": [
+		{
+			"name": "Apollo11Request",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://images-api.nasa.gov/search?q=apollo%2011",
+					"protocol": "https",
+					"host": [
+						"images-api",
+						"nasa",
+						"gov"
+					],
+					"path": [
+						"search"
+					],
+					"query": [
+						{
+							"key": "q",
+							"value": "apollo%2011"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetApolloInfoCustom",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:10009/nasa/apollo",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "10009",
+					"path": [
+						"nasa",
+						"apollo"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
